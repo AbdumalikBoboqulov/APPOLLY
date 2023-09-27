@@ -260,6 +260,14 @@ main .container {
   display: none;
 }
 
+.x {
+  display: none;
+}
+
+.barsMenu {
+  display: none;
+}
+
 @media (max-width: 1184px) {
   html {
     font-size: 54%;
@@ -315,8 +323,8 @@ main .container {
   }
 }
 @media (max-width: 400px) {
-  html {
-    font-size: 45%;
+  .logo {
+    width: 130px;
   }
   .container {
     max-width: 90%;
@@ -324,9 +332,15 @@ main .container {
   }
   .navBottom .logo {
     margin-left: 10px;
+    top: -5px;
+    right: 80px;
   }
   .navBottom {
     width: 343px;
+    width: 343px;
+  }
+  .modal {
+    width: 40rem !important;
   }
 }
 @media (max-width: 840px) {

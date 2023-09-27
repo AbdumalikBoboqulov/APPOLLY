@@ -249,6 +249,12 @@ main {
 .bars {
   display: none;
 }
+.x {
+  display: none;
+}
+.barsMenu {
+  display: none;
+}
 
 @media (max-width: 1184px) {
   html {
@@ -308,8 +314,8 @@ main {
   }
 }
 @media (max-width: 400px) {
-  html{
-    font-size: 45%;
+  .logo {
+    width: 130px;
   }
   .container {
     max-width: 90%;
@@ -317,11 +323,15 @@ main {
   }
   .navBottom .logo {
     margin-left: 10px;
+    top: -5px;
+    right: 80px;
   }
   .navBottom {
     width: 343px;
+    width: 343px;
   }
-  .rightPrt .downloud {
+  .modal {
+    width: 40rem !important;
   }
 }
 @media (max-width: 840px) {
